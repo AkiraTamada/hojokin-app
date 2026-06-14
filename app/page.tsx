@@ -86,22 +86,23 @@ export default function Home() {
       } catch(e) {}
     }
 
-    try {
+try {
       const res = await fetch('/subsidies-static.json');
-const staticData = await res.json();
-const staticList = staticData.subsidies || staticData;
-const catMap = { kosodate: 'childcare', jutaku: 'housing', iryo: 'medical', kyoiku: 'education', seikatsu: 'livelihood', shuro: 'employment' };
-const selectedCats = categories.map(c => catMap[c]);
-staticList.filter(s => selectedCats.includes(s.category)).forEach(s => allResults.push({
-  id: s.id || s.name,
-  title: s.name,
-  amount: s.amount,
-  deadline: null,
-  area: s.municipality || s.prefecture || '全国',
-  url: s.applicationUrl || s.url,
-  description: s.description,
-  type: 'static',
-}));
+      const staticData = await res.json();
+      const staticList = staticData.subsidies || staticData;
+      const catMap = { kosodate: 'childcare', jutaku: 'housing', iryo: 'medical', kyoiku: 'education', seikatsu: 'livelihood', shuro: 'employment' };
+      const selectedCats = categories.map(c => catMap[c]);
+      staticList.filter(s => selectedCats.includes(s.category)).forEach(s => allResults.push({
+        id: s.id || s.name,
+        title: s.name,
+        amount: s.amount,
+        deadline: null,
+        area: s.municipality || s.prefecture || '全国',
+        url: s.applicationUrl || s.url,
+        description: s.description,
+        type: 'static',
+      }));
+    } catch(e) {}
 
     const unique = Array.from(new Map(allResults.map(r => [r.id, r])).values());
     setResults(unique);
