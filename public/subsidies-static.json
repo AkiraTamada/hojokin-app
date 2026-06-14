@@ -1,61 +1,62 @@
-[
-  {
-    "name": "児童手当",
-    "category": "国の制度（こども家庭庁）",
-    "amount": "0〜2歳：月15,000円／3歳〜高校生年代：月10,000円／第3子以降：月30,000円（所得制限なし）",
-    "target": "0歳から18歳到達後最初の3月31日までの児童を養育する保護者（所得制限撤廃・2024年10月〜）",
-    "description": "子どもを養育する家庭に毎月手当を支給する制度。2024年10月より高校生年代まで対象拡大、所得制限撤廃、第3子以降は月3万円に増額。偶数月に2か月分を支給。",
-    "url": "https://www.cfa.go.jp/policies/child-family/jidouteate/"
-  },
-  {
-    "error": "該当する保育・子育て支援制度が見つかりません。このURLは「はり・きゅう・あん摩マッサージ指圧師の施術に係る療養費」に関するページであり、保育補助や子育て支援制度は掲載されていません。"
-  },
-  {
-    "name": "育児休業等給付（育児休業給付金）",
-    "category": "国の制度（雇用保険）",
-    "amount": "休業開始から180日間は賃金の67%、181日目以降は50%を支給",
-    "target": "雇用保険被保険者で1歳未満の子を養育するために育児休業を取得した父母",
-    "description": "育児休業中の収入減少を補うため、雇用保険から給付金が支給される国の制度。要件を満たせば最長2歳まで延長可能。",
-    "url": "https://www.hellowork.mhlw.go.jp/insurance/insurance_continue.html"
-  },
-  {
-    "name": "保育料等の無償化（第一子無償化支援）",
-    "category": "自治体の制度",
-    "amount": "保育料無償（第一子の保育料等を無償化）",
-    "target": "都内区市町村に在住する保育所等を利用する第一子の保護者",
-    "description": "令和７年９月１日から、保育料等第一子無償化を実施する区市町村を東京都が独自に支援する制度。国の対応を求めつつ、都として少子化対策を推進。",
-    "url": "https://www.fukushi.metro.tokyo.lg.jp/kodomo/hoiku/index.html"
-  },
-  {
-    "name": "幼児教育・保育の無償化",
-    "category": "自治体の制度",
-    "amount": "3〜5歳児クラスは利用料全額無償、0〜2歳児クラスは市民税非課税世帯のみ無償（認可外は月額上限37,000円）",
-    "target": "3〜5歳児クラスの全子ども、および市民税非課税世帯の0〜2歳児クラスの子ども",
-    "description": "幼稚園・保育所・認定こども園等の利用料を無償化する制度。令和元年10月から実施。認可外保育施設も給付認定を受ければ対象となる。",
-    "url": "https://www.city.yokohama.lg.jp/kosodate-kyoiku/"
-  },
-  {
-    "name": "川崎認定保育園等保育料補助金",
-    "category": "自治体の制度",
-    "amount": "認可保育所の保育料との差額を補助（世帯の市民税所得割額に基づき算定）",
-    "target": "川崎市内在住で川崎認定保育園または横浜保育室に在籍する児童の保護者（就労・疾病・介護等の保育要件を満たす方）",
-    "description": "川崎市が川崎認定保育園等に在籍する児童の保護者に対し保育料の補助を実施。横浜保育室利用者も連携協定に基づき対象となる。",
-    "url": "https://www.city.kawasaki.jp/450/category/69-8-0-0-0-0-0-0-0-0.html"
-  },
-  {
-    "name": "幼児教育・保育の無償化（施設等利用給付）",
-    "category": "自治体の制度",
-    "amount": "3〜5歳児：保育料無料（所得制限なし）／認可外保育施設は月額上限37,000円まで無償。0〜2歳児は住民税非課税世帯のみ無料",
-    "target": "さいたま市在住の幼稚園・保育所・認定こども園等を利用する3〜5歳児（0〜2歳児は住民税非課税世帯）",
-    "description": "幼稚園・保育所・認定こども園等に通う3〜5歳児の保育料を無償化する国・市の制度。認可外施設も条件付きで対象。施設等利用給付認定の申請が必要。",
-    "url": "https://www.city.saitama.jp/006/007/001/"
-  },
-  {
-    "name": "幼児教育・保育の無償化（子育てのための施設等利用給付制度）",
-    "category": "自治体の制度",
-    "amount": "3〜5歳児は無償（所得制限なし）、私立幼稚園は月額25,700円上限、認可外保育施設等は月額37,000円上限。第2子半額・第3子以降無料（令和7年9月〜）",
-    "target": "市内在住で幼稚園・保育所・認定こども園等を利用する3〜5歳児（0〜2歳児は住民税非課税世帯が対象）",
-    "description": "令和元年10月開始。幼稚園・保育所・認定こども園等の保育料を無償化。市独自の補助もあり、多子世帯・ひとり親・障害児世帯向けの軽減制度も設けている。",
-    "url": "https://www.city.chiba.jp/kodomomirai/kodomomirai/index.html"
-  }
-]
+{
+  "lastUpdated": "2026-06-14T10:10:01.831Z",
+  "totalCount": 3,
+  "categories": [
+    "childcare",
+    "housing",
+    "medical",
+    "education",
+    "livelihood",
+    "employment"
+  ],
+  "subsidies": [
+    {
+      "id": "national-001",
+      "name": "児童手当",
+      "description": "中学校卒業まで（15歳の誕生日後の最初の3月31日まで）の児童を養育している方に支給される手当。月額は子の年齢・人数により異なります。",
+      "amount": "月額1万〜3万円（年齢・人数による）",
+      "target": "中学生以下の子どもを養育している世帯",
+      "conditions": "所得制限あり（2024年10月より撤廃）",
+      "applicationUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/kodomo_kosodate/jidouteate/",
+      "municipality": null,
+      "prefecture": null,
+      "category": "childcare",
+      "ageMin": -1,
+      "ageMax": 15,
+      "source": "national",
+      "updatedAt": "2025-06-01"
+    },
+    {
+      "id": "national-002",
+      "name": "高等学校等就学支援金",
+      "description": "高校等に通う生徒の授業料を国が支援する制度。世帯収入に応じて授業料の一部または全部を支援します。",
+      "amount": "年間最大約39万6,000円（私立）/ 約11万8,800円（公立）",
+      "target": "高校・高専・特別支援学校高等部等に在籍する生徒",
+      "conditions": "世帯年収約910万円未満",
+      "applicationUrl": "https://www.mext.go.jp/a_menu/shotou/mushouka/",
+      "municipality": null,
+      "prefecture": null,
+      "category": "education",
+      "ageMin": 15,
+      "ageMax": 18,
+      "source": "national",
+      "updatedAt": "2025-06-01"
+    },
+    {
+      "id": "national-003",
+      "name": "住宅確保給付金",
+      "description": "離職などにより住宅を失った、またはそのおそれがある方に、一定期間の家賃相当額を支給する制度。",
+      "amount": "家賃相当額（上限あり・地域によって異なる）",
+      "target": "離職・廃業等により経済的に困窮している方",
+      "conditions": "収入要件・資産要件・求職活動要件あり",
+      "applicationUrl": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000073778.html",
+      "municipality": null,
+      "prefecture": null,
+      "category": "livelihood",
+      "ageMin": null,
+      "ageMax": null,
+      "source": "national",
+      "updatedAt": "2025-06-01"
+    }
+  ]
+}
