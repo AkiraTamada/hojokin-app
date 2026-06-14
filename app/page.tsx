@@ -142,7 +142,7 @@ export default function Home() {
         <div>
           <p className="text-xs text-gray-400 mb-1">検索結果</p>
           <p className="text-lg font-medium mb-6"><span className="text-emerald-600">{results.length}件</span>の補助金が見つかりました</p>
-          {results.map(r => (
+          {results.map((r: any) => (
             <div key={r.id} className="border border-gray-200 rounded-xl p-5 mb-3 hover:border-gray-300 transition">
               <div className="flex items-start justify-between mb-2">
                 <p className="font-medium flex-1">{r.title}</p>
