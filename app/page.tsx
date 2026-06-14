@@ -55,7 +55,7 @@ export default function Home() {
   const [pref, setPref] = useState('');
   const [results, setResults] = useState([]);
 
-  const prefOptions = ['東京都', '神奈川県', '埼玉県', '千葉県', '茨城県', '栃木県', '群馬県', '大阪府', '京都府', '兵庫県'];
+  const prefOptions = ['東京都', '神奈川県', '埼玉県', '千葉県', '茨城県', '栃木県', '群馬県', '大阪府', '京都府', '兵庫県', '愛知県', '福岡県', '北海道'];
 
   const toggleItem = (item, list, setList) => {
     setList(list.includes(item) ? list.filter(i => i !== item) : [...list, item]);
