@@ -6,6 +6,7 @@ const path = require('path');
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
 const SOURCES = [
+  // 国の制度
   {
     name: 'jidouteate',
     label: 'Child Allowance',
@@ -21,6 +22,32 @@ const SOURCES = [
     label: 'Childcare Leave Benefit',
     url: 'https://www.hellowork.mhlw.go.jp/insurance/insurance_continue.html',
   },
+  // 自治体
+  {
+    name: 'tokyo_kosodate',
+    label: 'Tokyo Childcare Support',
+    url: 'https://www.fukushi.metro.tokyo.lg.jp/kodomo/hoiku/index.html',
+  },
+  {
+    name: 'yokohama_kosodate',
+    label: 'Yokohama Childcare Support',
+    url: 'https://www.city.yokohama.lg.jp/kosodate-kyoiku/',
+  },
+  {
+    name: 'kawasaki_kosodate',
+    label: 'Kawasaki Childcare Support',
+    url: 'https://www.city.kawasaki.jp/450/category/69-8-0-0-0-0-0-0-0-0.html',
+  },
+  {
+    name: 'saitama_kosodate',
+    label: 'Saitama Childcare Support',
+    url: 'https://www.city.saitama.jp/006/007/001/',
+  },
+  {
+    name: 'chiba_kosodate',
+    label: 'Chiba Childcare Support',
+    url: 'https://www.city.chiba.jp/kodomomirai/kodomomirai/index.html',
+  },
 ];
 
 async function scrapeSubsidy(source) {
@@ -32,7 +59,7 @@ async function scrapeSubsidy(source) {
     messages: [
       {
         role: 'user',
-        content: 'Search this URL and return ONLY a JSON object (no explanation, no markdown): ' + source.url + '\n\nReturn this exact format:\n{"name":"制度名in Japanese","category":"国の制度","amount":"支給額","target":"対象者","description":"概要100字以内","url":"' + source.url + '"}',
+        content: 'Search this URL and find childcare subsidy or support programs. Return ONLY a JSON object (no explanation, no markdown): ' + source.url + '\n\nReturn this exact format:\n{"name":"制度名in Japanese","category":"自治体の制度","amount":"支給額または支援内容","target":"対象者","description":"概要100字以内","url":"' + source.url + '"}',
       },
     ],
   });
