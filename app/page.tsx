@@ -23,7 +23,7 @@ export default function Home() {
       try {
         const res = await fetch(`/api/subsidies?keyword=${kw}&area=${pref}&limit=10`);
         const data = await res.json();
-        if (data.result) allResults.push(...data.result.map(r => ({
+        if (data.result) allResults.push(...data.result.map((r: any) => ({
           id: r.id,
           title: r.title,
           amount: r.subsidy_max_limit ? `最大 ${Number(r.subsidy_max_limit).toLocaleString()}円` : '金額未定',
