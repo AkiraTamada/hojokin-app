@@ -92,8 +92,7 @@ try {
       const staticList = staticData.subsidies || staticData;
       const catMap = { kosodate: 'childcare', jutaku: 'housing', iryo: 'medical', kyoiku: 'education', seikatsu: 'livelihood', shuro: 'employment' };
       const selectedCats = categories.map(c => catMap[c]);
-      staticList.filter(s => selectedCats.includes(s.category)).forEach(s => allResults.push({
-        id: s.id || s.name,
+staticList.filter(s => selectedCats.includes(s.category) && (s.source === 'national' || s.prefecture === pref)).forEach(s => allResults.push({        id: s.id || s.name,
         title: s.name,
         amount: s.amount,
         deadline: null,
