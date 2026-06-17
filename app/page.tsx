@@ -54,9 +54,20 @@ export default function Home() {
   const [answers2, setAnswers2] = useState([]);
   const [pref, setPref] = useState('');
   const [results, setResults] = useState([]);
-
+　const [city, setCity] = useState('');
   const prefOptions = ['東京都', '神奈川県', '埼玉県', '千葉県', '茨城県', '栃木県', '群馬県', '大阪府', '京都府', '兵庫県', '愛知県', '福岡県', '北海道'];
-
+const cityOptions = {
+  '東京都': ['新宿区','渋谷区','世田谷区','練馬区','大田区','足立区','江東区','墨田区','板橋区','豊島区','中野区','杉並区','北区','荒川区','港区','千代田区','中央区','台東区','品川区','目黒区','文京区','江戸川区','葛飾区'],
+  '神奈川県': ['横浜市','川崎市','相模原市'],
+  '埼玉県': ['さいたま市','川口市'],
+  '千葉県': ['千葉市','船橋市'],
+  '大阪府': ['大阪市'],
+  '京都府': ['京都市'],
+  '兵庫県': ['神戸市'],
+  '愛知県': ['名古屋市'],
+  '福岡県': ['福岡市'],
+  '北海道': ['札幌市'],
+};
   const toggleItem = (item, list, setList) => {
     setList(list.includes(item) ? list.filter(i => i !== item) : [...list, item]);
   };
@@ -90,11 +101,12 @@ try {
       const res = await fetch('/subsidies-static.json');
       const staticData = await res.json();
       const staticList = staticData.subsidies || staticData;
-      const catMap = { kosodate: 'childcare', jutaku: 'housing', iryo: 'medical', kyoiku: 'education', seikatsu: 'livelihood', shuro: 'employment' };
+      const catMap = { kosodate: '子育て', jutaku: '住宅', iryo: '医療', kyoiku: '教育', seikatsu: '生活支援', shuro: '就労支援' };
       const selectedCats = categories.map(c => catMap[c]);
-staticList.filter(s => selectedCats.includes(s.category) && (s.source === 'national' || s.prefecture === pref)).forEach(s => allResults.push({        id: s.id || s.name,
+staticList.filter(s => s.category.some(c => selectedCats.includes(c)) && (s.source === 'national' || s.prefecture === pref) && (!city || !s.city || s.city === city)).forEach(s => allResults.push({
+　　　　id: s.id || s.name,
         title: s.name,
-        amount: s.amount,
+　　　　 amount: s.amount,
         deadline: null,
         area: s.municipality || s.prefecture || '全国',
         url: s.applicationUrl || s.url,
@@ -180,23 +192,28 @@ staticList.filter(s => selectedCats.includes(s.category) && (s.source === 'natio
         </div>
       )}
 
-      {step === 4 && (
+{step === 4 && (
         <div>
           <div className="flex gap-1 mb-8">{[1,2,3,4].map(i => <div key={i} className="h-1 flex-1 rounded-full bg-emerald-500" />)}</div>
           <p className="text-xs text-gray-400 mb-2">質問 4 / 4</p>
           <h2 className="text-lg font-medium mb-2">お住まいの都道府県は？</h2>
           <p className="text-sm text-gray-400 mb-5">地域の補助金も表示します</p>
-          <select value={pref} onChange={e => setPref(e.target.value)} className="w-full border border-gray-300 rounded-lg px-4 py-3 mb-8 text-gray-700">
+          <select value={pref} onChange={e => { setPref(e.target.value); setCity(''); }} className="w-full border border-gray-300 rounded-lg px-4 py-3 mb-4 text-gray-700">
             <option value="">選択してください</option>
             {prefOptions.map(p => <option key={p}>{p}</option>)}
           </select>
+          {pref && (cityOptions[pref] || []).length > 0 && (
+            <select value={city} onChange={e => setCity(e.target.value)} className="w-full border border-gray-300 rounded-lg px-4 py-3 mb-8 text-gray-700">
+              <option value="">区市町村を選ぶ（任意）</option>
+              {(cityOptions[pref] || []).map(c => <option key={c}>{c}</option>)}
+            </select>
+          )}
           <div className="flex gap-3">
             <button onClick={() => setStep(3)} className="border border-gray-300 px-6 py-3 rounded-lg text-sm">← 戻る</button>
             <button onClick={search} disabled={!pref} className="bg-emerald-600 text-white px-8 py-3 rounded-lg disabled:opacity-40">補助金を探す →</button>
           </div>
         </div>
       )}
-
       {step === 5 && (
         <div className="text-center py-24">
           <div className="flex justify-center gap-1 mb-4">
