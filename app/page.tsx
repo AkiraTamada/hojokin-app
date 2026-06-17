@@ -278,7 +278,7 @@ export default function Home() {
             const free = r.type === 'jgrants' || r.source === 'national';
             const locked = !isLoggedIn && !free;
             return (
-              <div key={r.id} className={`border rounded-xl p-5 mb-3 transition ${locked ? 'border-gray-100 bg-gray-50 opacity-60' : 'border-gray-200 hover:border-gray-300'}`}>
+              <div key={r.id} className={`border rounded-xl p-5 mb-3 transition ${locked ? 'border-gray-100 bg-gray-50' : 'border-gray-200 hover:border-gray-300'}`}>
                 {locked ? (
                   <div className="text-center py-2">
                     <p className="text-sm text-gray-400 mb-2">🔒 この補助金はログイン＆プレミアム登録後にご覧いただけます</p>
