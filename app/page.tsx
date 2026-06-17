@@ -91,7 +91,7 @@ const cityOptions = {
           amount: r.subsidy_max_limit ? `最大 ${Number(r.subsidy_max_limit).toLocaleString()}円` : '金額未定',
           deadline: r.acceptance_end_datetime ? new Date(r.acceptance_end_datetime).toLocaleDateString('ja-JP') : null,
           area: r.target_area_search,
-          url: r.url_to_subsidy,
+          url: r.url_to_subsidy || `https://www.jgrants-portal.go.jp/subsidy/search?keyword=${encodeURIComponent(r.title)}`,
           type: 'jgrants',
         })));
       } catch(e) {}
