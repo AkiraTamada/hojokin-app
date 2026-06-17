@@ -5,7 +5,9 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "中学校卒業まで（15歳の誕生日後の最初の3月31日まで）の児童を養育している方に支給される手当。",
     "amount": "月額3,000円〜15,000円（所得制限あり）",
     "deadline": "随時",
@@ -18,7 +20,9 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "健康保険・国民健康保険の被保険者または被扶養者が出産した場合に支給される一時金。",
     "amount": "50万円（産科医療補償制度加入機関での出産の場合）",
     "deadline": "出産後2年以内",
@@ -31,7 +35,9 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "住宅ローンを利用して住宅を新築・取得または増改築等した場合、一定期間にわたり所得税から控除が受けられる制度。",
     "amount": "年末ローン残高の0.7%（最大13年間）",
     "deadline": "入居した年の翌年2月16日〜3月15日",
@@ -44,7 +50,10 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["住宅", "子育て"],
+    "category": [
+      "住宅",
+      "子育て"
+    ],
     "description": "子育て世帯・若者夫婦世帯が省エネ性能の高い新築住宅の取得やリフォームを行う場合に補助金を支給。",
     "amount": "新築：最大100万円、リフォーム：最大60万円",
     "deadline": "2026年3月31日（予算上限に達し次第終了）",
@@ -57,7 +66,9 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["医療"],
+    "category": [
+      "医療"
+    ],
     "description": "医療機関や薬局の窓口で支払う医療費が1か月間（月の初めから終わり）で上限額を超えた場合、その超えた金額を支給する制度。",
     "amount": "所得に応じて上限額が異なる（例：年収約370万〜770万円の場合：月8万100円＋α）",
     "deadline": "2年以内に申請",
@@ -70,7 +81,9 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["教育"],
+    "category": [
+      "教育"
+    ],
     "description": "高校等に通う生徒の授業料を支援するため、学校設置者に対して就学支援金を支給する制度（生徒の保護者等の所得制限あり）。",
     "amount": "公立：年額11万8,800円、私立：年額最大39万6,000円",
     "deadline": "入学後に学校経由で申請",
@@ -83,7 +96,9 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["生活支援"],
+    "category": [
+      "生活支援"
+    ],
     "description": "生活に困窮するすべての国民に対し、困窮の程度に応じた保護を行い、最低限度の生活を保障するとともに自立を助長する制度。",
     "amount": "世帯の状況により異なる（生活扶助・住宅扶助・医療扶助等）",
     "deadline": "随時（住所地の福祉事務所に申請）",
@@ -96,7 +111,9 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["就労支援"],
+    "category": [
+      "就労支援"
+    ],
     "description": "失業した場合に、生活の安定を図りつつ再就職活動を促進するため、失業給付（基本手当）を支給する制度。",
     "amount": "離職前の賃金の45〜80%（日額上限あり）",
     "deadline": "離職後速やかにハローワークへ",
@@ -109,7 +126,10 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["就労支援", "教育"],
+    "category": [
+      "就労支援",
+      "教育"
+    ],
     "description": "厚生労働大臣が指定する教育訓練を修了した場合に、支払った費用の一部がハローワークから支給される給付金。",
     "amount": "一般：受講費用の20%（上限10万円）、専門実践：最大70%（年間上限56万円）",
     "deadline": "修了日翌日から1か月以内",
@@ -122,7 +142,9 @@
     "source": "national",
     "prefecture": null,
     "city": null,
-    "category": ["生活支援"],
+    "category": [
+      "生活支援"
+    ],
     "description": "収入の減少や失業等により生活に困窮する世帯に対し、社会福祉協議会が低利または無利子で資金を貸し付ける制度。",
     "amount": "緊急小口：最大20万円、総合支援：月最大20万円（単身15万円）",
     "deadline": "各都道府県社会福祉協議会に随時相談",
@@ -135,7 +157,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": null,
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "東京都内に住む18歳までの子どもの医療費（保険診療の自己負担分）を助成する都独自の制度。",
     "amount": "通院・入院の自己負担分を助成（所得制限なし）",
     "deadline": "随時",
@@ -148,7 +173,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "新宿区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "新宿区に住民登録のある0〜2歳児を養育する保護者を対象とした給付金。",
     "amount": "1人あたり月額5,000円",
     "deadline": "随時（出生後または転入後速やかに申請）",
@@ -161,7 +188,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "新宿区",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "区内の耐震改修・省エネ改修を行う住宅の所有者等に対して改修費の一部を助成する制度。",
     "amount": "最大50万円",
     "deadline": "工事着工前に申請（年度内予算枠あり）",
@@ -174,7 +203,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "新宿区",
-    "category": ["医療"],
+    "category": [
+      "医療"
+    ],
     "description": "要介護3〜5の高齢者を自宅で介護している家族に対し、紙おむつ等の介護用品購入費を助成する制度。",
     "amount": "月額最大8,000円",
     "deadline": "随時",
@@ -187,7 +218,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "渋谷区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "渋谷区内の保育所、幼稚園、認定こども園等の利用に関する相談・情報提供、申込み支援を行う。",
     "amount": "相談・情報提供（無料）",
     "deadline": "随時",
@@ -200,7 +233,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "渋谷区",
-    "category": ["生活支援", "医療"],
+    "category": [
+      "生活支援",
+      "医療"
+    ],
     "description": "ひとり親家庭の親と18歳未満の子どもの医療費（保険診療自己負担分）を助成する制度。",
     "amount": "保険診療自己負担分を全額または一部助成",
     "deadline": "随時",
@@ -213,7 +249,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "世田谷区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "妊娠・出産・子育てに関するあらゆる相談に対応。子育てに必要なサービスとの連携・調整を行う。",
     "amount": "無料",
     "deadline": "随時",
@@ -226,7 +264,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "世田谷区",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "1981年5月31日以前に建築された木造住宅の耐震診断・耐震改修工事費用の一部を補助する制度。",
     "amount": "耐震診断：最大16万円、耐震改修：最大200万円",
     "deadline": "年度内（毎年4月頃受付開始）",
@@ -239,7 +279,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "練馬区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "区内認可保育所等を利用する第2子以降の子どもの保育料を独自に無償化する練馬区の制度。",
     "amount": "保育料全額（所得制限なし）",
     "deadline": "入園時に申請",
@@ -252,7 +294,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "練馬区",
-    "category": ["生活支援"],
+    "category": [
+      "生活支援"
+    ],
     "description": "物価高騰対策として、住民税非課税世帯および均等割のみ課税世帯への臨時給付金（国の施策と連動）。",
     "amount": "1世帯あたり最大10万円（対象年度により変動）",
     "deadline": "対象者に通知後、期限内に申請",
@@ -265,7 +309,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "大田区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "3人以上のお子さんがいる世帯に対し、保育料の負担軽減を行う大田区の独自支援制度。",
     "amount": "第3子以降の保育料を無償化",
     "deadline": "随時",
@@ -278,7 +324,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "大田区",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "区内の住宅で省エネ性能向上を目的とするリノベーション（断熱改修・設備更新等）に対する助成金。",
     "amount": "最大30万円",
     "deadline": "年度内（予算に達し次第終了）",
@@ -291,7 +339,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "足立区",
-    "category": ["子育て", "教育"],
+    "category": [
+      "子育て",
+      "教育"
+    ],
     "description": "生活困窮世帯や生活保護世帯の中学生を対象に、学習支援・居場所づくりを無料で提供する事業。",
     "amount": "無料（学習支援・食事提供あり）",
     "deadline": "随時",
@@ -304,7 +355,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "足立区",
-    "category": ["生活支援"],
+    "category": [
+      "生活支援"
+    ],
     "description": "食に困窮する区民を対象に、フードバンクを通じた食料提供と生活相談を実施する区の取組。",
     "amount": "食料品の現物支給",
     "deadline": "随時（要事前連絡）",
@@ -317,7 +370,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "江東区",
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "出産後間もない母親と赤ちゃんを対象に、心身のケアや育児指導を提供する助産師等によるサービス。",
     "amount": "宿泊型：1泊最大2,000円（自己負担）、日帰り型：最大500円",
     "deadline": "産後4か月未満の赤ちゃんがいる方は随時申請可",
@@ -330,7 +386,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "墨田区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "区内で出産した（または転入した）方に育児用品セットを配布するとともに、子育て支援に関する情報を提供する。",
     "amount": "育児用品セット（おむつ・ガーゼ等 数千円相当）",
     "deadline": "出産後・転入後1年以内",
@@ -343,7 +401,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "板橋区",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "高齢者・低所得者・子育て世帯等の住宅確保要配慮者向けに登録された住宅の改修費の一部を補助する制度。",
     "amount": "最大200万円",
     "deadline": "年度内（受付開始時期は区HPを確認）",
@@ -356,7 +416,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "豊島区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "区内に居住する新生児の保護者を対象に、子育て支援品（商品券・育児グッズ等）を贈呈する豊島区独自の制度。",
     "amount": "1人あたり最大3万円相当",
     "deadline": "出生後6か月以内",
@@ -369,7 +431,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "中野区",
-    "category": ["教育", "子育て"],
+    "category": [
+      "教育",
+      "子育て"
+    ],
     "description": "区立小・中学校に通う全児童生徒の学校給食費を無償化する中野区独自の制度。",
     "amount": "給食費全額（小学校：月約4,500円、中学校：月約5,200円相当）",
     "deadline": "自動適用（申請不要）",
@@ -382,7 +447,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "杉並区",
-    "category": ["教育"],
+    "category": [
+      "教育"
+    ],
     "description": "経済的な理由で就学困難な児童・生徒の保護者に対し、学用品費・給食費・修学旅行費等を援助する制度。",
     "amount": "学用品費・給食費・修学旅行費等（所得基準あり）",
     "deadline": "毎年4月（年度途中も随時申請可）",
@@ -395,7 +462,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "北区",
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "妊娠初期から子育て期にわたり、保健師・助産師が継続的に相談・支援を行うフィンランド発祥の制度を北区が導入。",
     "amount": "相談・支援（無料）",
     "deadline": "随時",
@@ -408,7 +478,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "荒川区",
-    "category": ["医療", "生活支援"],
+    "category": [
+      "医療",
+      "生活支援"
+    ],
     "description": "聴力が低下した荒川区内の高齢者が補聴器を購入する費用の一部を助成する制度。",
     "amount": "最大37,000円（両耳の場合最大55,000円）",
     "deadline": "随時（購入前に申請が必要）",
@@ -421,7 +494,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "港区",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "港区内で住宅の断熱・省エネ改修、バリアフリー改修を行う区民に対して費用の一部を補助する制度。",
     "amount": "最大100万円",
     "deadline": "年度内（予算上限あり）",
@@ -434,7 +509,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "千代田区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "区立小学校に通う児童に放課後の安心できる居場所と遊び・生活の場を提供する千代田区の事業。",
     "amount": "利用料：月額2,000円（保護者の所得により減免あり）",
     "deadline": "各期の募集時期に申請",
@@ -447,7 +524,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "中央区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "養育支援が必要な家庭（育児不安がある・多胎児家庭等）にヘルパーを派遣し、家事・育児を支援する事業。",
     "amount": "1時間あたり500円（低所得者は無料）",
     "deadline": "随時",
@@ -460,7 +539,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "台東区",
-    "category": ["生活支援", "就労支援"],
+    "category": [
+      "生活支援",
+      "就労支援"
+    ],
     "description": "生活に困窮する区民を対象に、就労支援・住居確保給付金・家計改善支援等を一体的に提供する制度。",
     "url": "https://www.city.taito.lg.jp/fukushi/seikatuhogo/jiritushien/index.html",
     "amount": "住居確保給付金：月最大53,700円（東京23区単身の場合）",
@@ -473,7 +555,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "品川区",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "品川区に転入してきた子育て世帯や区内で出産した世帯を対象に、子育て支援サービスの初期利用料を助成する制度。",
     "amount": "最大5万円相当",
     "deadline": "転入後・出産後6か月以内",
@@ -486,7 +570,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "目黒区",
-    "category": ["教育", "子育て"],
+    "category": [
+      "教育",
+      "子育て"
+    ],
     "description": "区内の私立幼稚園・認定こども園（幼稚園型）に通う園児の保護者に対し、国・都の補助に上乗せして区独自の補助金を支給。",
     "amount": "年間最大84,000円（所得制限あり）",
     "deadline": "毎年5〜6月頃（在籍確認後に区から通知）",
@@ -499,7 +586,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "文京区",
-    "category": ["住宅", "医療"],
+    "category": [
+      "住宅",
+      "医療"
+    ],
     "description": "65歳以上の高齢者がいる世帯で、住宅の段差解消・手すり設置・滑り止め設置等のバリアフリー改修を行う場合に費用を給付。",
     "amount": "最大20万円",
     "deadline": "工事着工前に申請",
@@ -512,7 +602,10 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "江戸川区",
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "中学3年生（15歳になった最初の3月31日）まで区内に住む子どもの医療費（保険診療自己負担分）を区が全額助成する制度。",
     "amount": "保険診療自己負担分全額",
     "deadline": "随時（資格確認後、自動交付）",
@@ -525,7 +618,9 @@
     "source": "municipal",
     "prefecture": "東京都",
     "city": "葛飾区",
-    "category": ["就労支援"],
+    "category": [
+      "就労支援"
+    ],
     "description": "区内在住の求職者・再就職希望者を対象に、無料就職支援セミナーの開催と資格取得費の一部を補助する区の事業。",
     "amount": "セミナー無料、資格取得費：最大3万円",
     "deadline": "随時（定員あり）",
@@ -538,7 +633,9 @@
     "source": "municipal",
     "prefecture": "神奈川県",
     "city": null,
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "18歳未満の子どもがいる世帯に交付するパスポートで、協賛店舗での割引・特典が受けられる県の制度。",
     "amount": "協賛店舗での各種割引・特典",
     "deadline": "随時（市区町村の窓口で申請）",
@@ -551,7 +648,10 @@
     "source": "municipal",
     "prefecture": "神奈川県",
     "city": "横浜市",
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "横浜市に住む18歳未満のこどもの通院・入院にかかる医療費（保険診療自己負担分）を助成する制度。",
     "amount": "通院1回500円・入院1日200円を超える部分を助成",
     "deadline": "随時（誕生後または転入後速やかに申請）",
@@ -564,7 +664,9 @@
     "source": "municipal",
     "prefecture": "神奈川県",
     "city": "横浜市",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "市内在住の住宅所有者等が省エネ・バリアフリー・耐震等の改修を行う場合に費用の一部を助成する横浜市の制度。",
     "amount": "最大50万円（工事内容・所得により異なる）",
     "deadline": "年度内（予算に達し次第終了）",
@@ -577,7 +679,10 @@
     "source": "municipal",
     "prefecture": "神奈川県",
     "city": "川崎市",
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "18歳未満の川崎市民の医療費（保険診療自己負担分）を助成する制度。通院・入院ともに対象。",
     "amount": "通院：1回500円超の部分を助成、入院：全額助成（食事代等は対象外）",
     "deadline": "随時",
@@ -590,7 +695,9 @@
     "source": "municipal",
     "prefecture": "神奈川県",
     "city": "相模原市",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "市内の住宅に太陽光発電・蓄電池・エネファーム等の省エネ設備を設置する費用の一部を補助する相模原市の制度。",
     "amount": "設備種別により最大15万円〜25万円",
     "deadline": "年度内（受付開始時期は市HPを確認）",
@@ -603,7 +710,9 @@
     "source": "municipal",
     "prefecture": "埼玉県",
     "city": null,
-    "category": ["教育"],
+    "category": [
+      "教育"
+    ],
     "description": "低所得世帯の高校生に、授業料以外の教育費（教科書代・学用品費等）の負担を軽減するための給付金。",
     "amount": "32,300円〜138,000円（学年・世帯状況により異なる）",
     "deadline": "毎年7〜8月頃（在籍高校経由で申請）",
@@ -616,7 +725,9 @@
     "source": "municipal",
     "prefecture": "埼玉県",
     "city": "さいたま市",
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "市内認可保育施設を利用する第2子以降の保育料を、さいたま市が独自に無償化または軽減する制度。",
     "amount": "第2子：半額、第3子以降：無料",
     "deadline": "入所時に申請（自動判定）",
@@ -629,7 +740,9 @@
     "source": "municipal",
     "prefecture": "埼玉県",
     "city": "川口市",
-    "category": ["生活支援"],
+    "category": [
+      "生活支援"
+    ],
     "description": "離職・廃業等により収入が減少し、住居を失うおそれのある方に対して、家賃相当分を一定期間支給する制度。",
     "amount": "最大月53,700円（単身・川口市の場合、最大9か月）",
     "deadline": "随時（川口市生活支援センターに相談）",
@@ -642,7 +755,10 @@
     "source": "municipal",
     "prefecture": "千葉県",
     "city": null,
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "不妊治療を受けるカップルに対し、保険適用外の治療費（先進医療等）の一部を県が助成する制度。",
     "amount": "1回最大30万円（年2回まで）",
     "deadline": "治療終了後6か月以内",
@@ -655,7 +771,9 @@
     "source": "municipal",
     "prefecture": "千葉県",
     "city": "千葉市",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "市内の住宅に太陽光発電・蓄電池・家庭用燃料電池（エネファーム）等を設置する費用の一部を補助する千葉市の制度。",
     "amount": "太陽光：最大10万円、蓄電池：最大10万円、エネファーム：最大10万円",
     "deadline": "年度内（予算上限に達し次第終了）",
@@ -668,7 +786,10 @@
     "source": "municipal",
     "prefecture": "千葉県",
     "city": "船橋市",
-    "category": ["子育て", "住宅"],
+    "category": [
+      "子育て",
+      "住宅"
+    ],
     "description": "市内に転入する子育て世帯（18歳以下の子がいる世帯）に対し、民間賃貸住宅の家賃の一部を補助する事業。",
     "amount": "月最大2万円（最長2年間）",
     "deadline": "転入後6か月以内",
@@ -681,7 +802,9 @@
     "source": "municipal",
     "prefecture": "大阪府",
     "city": null,
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "府内の妊産婦・乳幼児を持つ家庭を対象に、育児用品や子育てサービスに使えるクーポンを配布する大阪府の事業。",
     "amount": "最大3万円相当のクーポン",
     "deadline": "出産後または転入後に申請（期限あり）",
@@ -694,7 +817,9 @@
     "source": "municipal",
     "prefecture": "大阪府",
     "city": "大阪市",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "旧耐震基準（1981年以前）の老朽木造住宅を建て替える市民に対して費用の一部を助成する大阪市の制度。",
     "amount": "最大100万円",
     "deadline": "年度内（申請前に事前相談が必要）",
@@ -707,7 +832,9 @@
     "source": "municipal",
     "prefecture": "京都府",
     "city": null,
-    "category": ["子育て"],
+    "category": [
+      "子育て"
+    ],
     "description": "府内の保育所・幼稚園等に通う第3子以降の子どもの保育料を無償とする京都府独自の制度（市町村と連携）。",
     "amount": "保育料全額（所得制限なし）",
     "deadline": "入所・入園時に申請",
@@ -720,7 +847,10 @@
     "source": "municipal",
     "prefecture": "京都府",
     "city": "京都市",
-    "category": ["生活支援", "子育て"],
+    "category": [
+      "生活支援",
+      "子育て"
+    ],
     "description": "ひとり親家庭が一時的に生活援助・保育等が必要な場合、家庭生活支援員を派遣する京都市の事業。",
     "amount": "1時間あたり100〜300円（所得により異なる）",
     "deadline": "随時（区役所に申請）",
@@ -733,7 +863,10 @@
     "source": "municipal",
     "prefecture": "兵庫県",
     "city": null,
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "流産・死産等を繰り返す不育症の方の治療費（保険外診療分）の一部を助成する兵庫県の制度。",
     "amount": "1回最大10万円",
     "deadline": "治療終了後6か月以内",
@@ -746,7 +879,9 @@
     "source": "municipal",
     "prefecture": "兵庫県",
     "city": "神戸市",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "神戸市内の旧耐震基準住宅を除却し新たに住宅を購入・新築する市民に対する補助金。若者・子育て世帯を優先支援。",
     "amount": "最大100万円（子育て世帯は加算あり）",
     "deadline": "予算に達し次第終了",
@@ -759,7 +894,10 @@
     "source": "municipal",
     "prefecture": "愛知県",
     "city": null,
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "愛知県が福祉医療費の助成制度として、中学3年生（15歳年度末）まで医療費の自己負担を助成する制度。",
     "amount": "通院・入院の保険診療自己負担分（一部自己負担あり）",
     "deadline": "随時",
@@ -772,7 +910,9 @@
     "source": "municipal",
     "prefecture": "愛知県",
     "city": "名古屋市",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "市内の住宅に太陽光発電・蓄電池・家庭用燃料電池を設置する場合に費用の一部を補助する名古屋市の制度。",
     "amount": "太陽光：1kWあたり2万円（上限8万円）、蓄電池：最大6万円",
     "deadline": "年度内（受付開始時期は市HPを確認）",
@@ -785,7 +925,10 @@
     "source": "municipal",
     "prefecture": "福岡県",
     "city": null,
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "福岡県内に住む18歳以下（高校生相当まで）の子どもの医療費自己負担分を助成する制度（市町村と連携）。",
     "amount": "通院・入院の自己負担分（市町村によって上乗せあり）",
     "deadline": "随時",
@@ -798,7 +941,9 @@
     "source": "municipal",
     "prefecture": "福岡県",
     "city": "福岡市",
-    "category": ["就労支援"],
+    "category": [
+      "就労支援"
+    ],
     "description": "福岡市へのUIJターン就職を目指す人材と市内スタートアップ企業をマッチングし、移住・就職を支援する市の事業。",
     "amount": "マッチング支援（移住費用補助は別途）",
     "deadline": "随時",
@@ -811,7 +956,10 @@
     "source": "municipal",
     "prefecture": "北海道",
     "city": null,
-    "category": ["子育て", "医療"],
+    "category": [
+      "子育て",
+      "医療"
+    ],
     "description": "中学3年生（15歳年度末）まで道内に住む子どもの保険診療自己負担分の一部を道が助成（市町村と連携）。",
     "amount": "通院：1回500円超の部分、入院：1日300円超の部分を助成",
     "deadline": "随時（市町村窓口で申請）",
@@ -824,7 +972,9 @@
     "source": "municipal",
     "prefecture": "北海道",
     "city": "札幌市",
-    "category": ["住宅"],
+    "category": [
+      "住宅"
+    ],
     "description": "市内の住宅で断熱改修・省エネ設備設置（窓・外壁・屋根断熱等）を行う場合に費用の一部を補助する制度。",
     "amount": "最大100万円（工事内容・断熱性能向上度合いにより異なる）",
     "deadline": "年度内（申請前に住宅エネルギーアドバイザーとの相談が必要）",
@@ -837,11 +987,371 @@
     "source": "municipal",
     "prefecture": "北海道",
     "city": "札幌市",
-    "category": ["生活支援"],
+    "category": [
+      "生活支援"
+    ],
     "description": "離職等により住居を失うおそれのある方に対し、家賃相当額を一定期間支給することで住居の確保を支援する制度。",
     "amount": "月最大40,000円（世帯人数による、最大9か月）",
     "deadline": "随時（各区の生活支援課に相談）",
     "url": "https://www.city.sapporo.jp/shimin/jyoho/seikatsufukushi/jukyokakuho.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "kanagawa-yokosuka-childcare-001",
+    "name": "横須賀市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "神奈川県",
+    "city": "横須賀市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "市内在住の18歳未満の子どもの医療費（保険診療自己負担分）を助成する制度。通院・入院ともに対象。",
+    "amount": "通院1回300円・入院1日300円を超える部分を助成",
+    "deadline": "随時（誕生後または転入後速やかに申請）",
+    "url": "https://www.city.yokosuka.kanagawa.jp/2510/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "kanagawa-yokosuka-housing-001",
+    "name": "横須賀市 住宅リフォーム資金補助",
+    "source": "municipal",
+    "prefecture": "神奈川県",
+    "city": "横須賀市",
+    "category": [
+      "住宅"
+    ],
+    "description": "市内業者を利用して住宅リフォームを行う場合に、工事費用の一部を補助する横須賀市の制度。耐震・省エネ・バリアフリー改修が対象。",
+    "amount": "工事費の10%（上限20万円）",
+    "deadline": "年度内（予算額に達し次第終了）",
+    "url": "https://www.city.yokosuka.kanagawa.jp/1610/reform.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "kanagawa-fujisawa-childcare-001",
+    "name": "藤沢市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "神奈川県",
+    "city": "藤沢市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "藤沢市在住の18歳未満の子どもの通院・入院にかかる医療費（保険診療自己負担分）を助成する制度。",
+    "amount": "自己負担分の全額助成（1回200円の自己負担あり）",
+    "deadline": "随時",
+    "url": "https://www.city.fujisawa.kanagawa.jp/kosodate/kodomo/medical/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "kanagawa-fujisawa-housing-001",
+    "name": "藤沢市 住宅用太陽光発電システム設置費補助",
+    "source": "municipal",
+    "prefecture": "神奈川県",
+    "city": "藤沢市",
+    "category": [
+      "住宅"
+    ],
+    "description": "市内の住宅に太陽光発電システムを設置する場合に費用の一部を補助する藤沢市の制度。蓄電池との同時設置も対象。",
+    "amount": "1kWあたり2万円（上限8万円）",
+    "deadline": "年度内（受付は市HPで確認）",
+    "url": "https://www.city.fujisawa.kanagawa.jp/kankyou/taiyoukou.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "kanagawa-hiratsuka-childcare-001",
+    "name": "平塚市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "神奈川県",
+    "city": "平塚市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "平塚市在住の18歳未満の子どもの通院・入院医療費（保険診療自己負担分）を助成する制度。",
+    "amount": "1回300円を超える部分を助成",
+    "deadline": "随時",
+    "url": "https://www.city.hiratsuka.kanagawa.jp/kosodate/page02_00258.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "kanagawa-hiratsuka-livelihood-001",
+    "name": "平塚市 住居確保給付金",
+    "source": "municipal",
+    "prefecture": "神奈川県",
+    "city": "平塚市",
+    "category": [
+      "生活支援"
+    ],
+    "description": "離職・廃業等により収入が減少し、住居を失うおそれのある方に家賃相当分を支給する制度。",
+    "amount": "最大月53,700円（単身の場合、最大9か月）",
+    "deadline": "随時（平塚市生活サポートセンターに相談）",
+    "url": "https://www.city.hiratsuka.kanagawa.jp/fukushi/page02_00174.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "kanagawa-atsugi-childcare-001",
+    "name": "厚木市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "神奈川県",
+    "city": "厚木市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "厚木市在住の18歳未満の子どもの医療費を助成する制度。神奈川県内の医療機関での受診が対象。",
+    "amount": "保険診療自己負担分（1回200円を超える部分）を助成",
+    "deadline": "随時（出生後または転入後すみやかに申請）",
+    "url": "https://www.city.atsugi.kanagawa.jp/kosodate/iryo/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "kanagawa-atsugi-housing-001",
+    "name": "厚木市 住宅用省エネルギー設備設置費補助",
+    "source": "municipal",
+    "prefecture": "神奈川県",
+    "city": "厚木市",
+    "category": [
+      "住宅"
+    ],
+    "description": "太陽光発電・蓄電池・エネファーム等の省エネ設備を住宅に設置する費用の一部を補助する厚木市の制度。",
+    "amount": "設備種別により5万円〜15万円",
+    "deadline": "年度内（受付は市HPで確認）",
+    "url": "https://www.city.atsugi.kanagawa.jp/shisei/kankyou/enerugi/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "saitama-kawagoe-childcare-001",
+    "name": "川越市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "川越市在住の18歳未満の子どもの通院・入院にかかる医療費（保険診療自己負担分）を助成する制度。",
+    "amount": "1回500円を超える部分を助成（入院は全額助成）",
+    "deadline": "随時（出生後または転入後すみやかに申請）",
+    "url": "https://www.city.kawagoe.saitama.jp/kosodate/kodomono/iryohi/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "saitama-kawagoe-housing-001",
+    "name": "川越市 住宅用太陽光発電システム設置補助",
+    "source": "municipal",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "category": [
+      "住宅"
+    ],
+    "description": "住宅に太陽光発電システムを設置する市民に、費用の一部を補助する川越市の制度。",
+    "amount": "1kWあたり2万円（上限6万円）",
+    "deadline": "年度内（予算に達し次第終了）",
+    "url": "https://www.city.kawagoe.saitama.jp/shisei/kankyou/enerugi/taiyou/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "saitama-koshigaya-childcare-001",
+    "name": "越谷市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "埼玉県",
+    "city": "越谷市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "越谷市在住の18歳未満の子どもの医療費（保険診療自己負担分）を助成する制度。通院・入院ともに対象。",
+    "amount": "保険診療自己負担分（1回200円を超える部分）を助成",
+    "deadline": "随時",
+    "url": "https://www.city.koshigaya.saitama.jp/kosodate_kyoiku/kosodate/iryohi/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "saitama-koshigaya-livelihood-001",
+    "name": "越谷市 住居確保給付金",
+    "source": "municipal",
+    "prefecture": "埼玉県",
+    "city": "越谷市",
+    "category": [
+      "生活支援"
+    ],
+    "description": "離職・廃業等で収入が減少し、住居を失うおそれのある方に家賃相当額を支給する越谷市の制度。",
+    "amount": "最大月53,700円（単身の場合、最大9か月）",
+    "deadline": "随時（越谷市生活支援センターに相談）",
+    "url": "https://www.city.koshigaya.saitama.jp/fukushi/seikatsu/kyuufukin/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "saitama-tokorozawa-childcare-001",
+    "name": "所沢市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "埼玉県",
+    "city": "所沢市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "所沢市在住の18歳未満の子どもの通院・入院医療費（保険診療自己負担分）を助成する制度。",
+    "amount": "1回200円を超える部分を助成",
+    "deadline": "随時（出生後または転入後すみやかに申請）",
+    "url": "https://www.city.tokorozawa.saitama.jp/kosodate/kosodate/iryohi/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "saitama-tokorozawa-education-001",
+    "name": "所沢市 就学援助制度",
+    "source": "municipal",
+    "prefecture": "埼玉県",
+    "city": "所沢市",
+    "category": [
+      "教育",
+      "生活支援"
+    ],
+    "description": "経済的な理由で就学が困難な小中学生の保護者に対し、学用品費・給食費・修学旅行費等を援助する制度。",
+    "amount": "学用品費・給食費・修学旅行費等（費目により異なる）",
+    "deadline": "毎年4〜5月（在籍校に申請）",
+    "url": "https://www.city.tokorozawa.saitama.jp/kosodate/gakkou/shugaku_enjo/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "saitama-soka-childcare-001",
+    "name": "草加市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "埼玉県",
+    "city": "草加市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "草加市在住の18歳未満の子どもの通院・入院にかかる医療費（保険診療自己負担分）を助成する制度。",
+    "amount": "1回200円を超える部分を助成",
+    "deadline": "随時",
+    "url": "https://www.city.soka.saitama.jp/hp/menu000001100/hpg000001020.htm",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "chiba-kashiwa-childcare-001",
+    "name": "柏市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "千葉県",
+    "city": "柏市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "柏市在住の18歳未満の子どもの通院・入院にかかる医療費（保険診療自己負担分）を助成する制度。",
+    "amount": "1回200円を超える部分を助成",
+    "deadline": "随時（出生後または転入後すみやかに申請）",
+    "url": "https://www.city.kashiwa.lg.jp/kosodate/iryo/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "chiba-kashiwa-housing-001",
+    "name": "柏市 住宅用省エネルギー設備設置費補助",
+    "source": "municipal",
+    "prefecture": "千葉県",
+    "city": "柏市",
+    "category": [
+      "住宅"
+    ],
+    "description": "住宅に太陽光発電・蓄電池・エネファーム等の省エネ設備を設置する場合に費用の一部を補助する柏市の制度。",
+    "amount": "設備種別により3万円〜10万円",
+    "deadline": "年度内（受付は市HPで確認）",
+    "url": "https://www.city.kashiwa.lg.jp/shisei/kankyou/enerugi/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "chiba-matsudo-childcare-001",
+    "name": "松戸市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "千葉県",
+    "city": "松戸市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "松戸市在住の18歳未満の子どもの医療費（保険診療自己負担分）を助成する制度。通院・入院ともに対象。",
+    "amount": "1回200円を超える部分を助成",
+    "deadline": "随時",
+    "url": "https://www.city.matsudo.chiba.jp/kosodate/iryo/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "chiba-matsudo-livelihood-001",
+    "name": "松戸市 住居確保給付金",
+    "source": "municipal",
+    "prefecture": "千葉県",
+    "city": "松戸市",
+    "category": [
+      "生活支援"
+    ],
+    "description": "離職・廃業等で収入が減少し、住居を失うおそれのある方に家賃相当額を支給する松戸市の制度。",
+    "amount": "最大月64,000円（単身の場合、最大9か月）",
+    "deadline": "随時（松戸市生活支援センターに相談）",
+    "url": "https://www.city.matsudo.chiba.jp/fukushi/seikatsu/kyufukin/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "chiba-ichikawa-childcare-001",
+    "name": "市川市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "千葉県",
+    "city": "市川市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "市川市在住の18歳未満の子どもの通院・入院にかかる医療費（保険診療自己負担分）を助成する制度。",
+    "amount": "1回200円を超える部分を助成",
+    "deadline": "随時",
+    "url": "https://www.city.ichikawa.lg.jp/wel03/1111000004.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "chiba-ichikawa-housing-001",
+    "name": "市川市 住宅用太陽光発電・蓄電池設置補助",
+    "source": "municipal",
+    "prefecture": "千葉県",
+    "city": "市川市",
+    "category": [
+      "住宅"
+    ],
+    "description": "市内住宅に太陽光発電システムや蓄電池を設置する場合に費用の一部を補助する市川市の制度。",
+    "amount": "太陽光：最大8万円、蓄電池：最大10万円",
+    "deadline": "年度内（予算に達し次第終了）",
+    "url": "https://www.city.ichikawa.lg.jp/env01/taiyoukou.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "chiba-urayasu-childcare-001",
+    "name": "浦安市 子ども医療費助成",
+    "source": "municipal",
+    "prefecture": "千葉県",
+    "city": "浦安市",
+    "category": [
+      "子育て",
+      "医療"
+    ],
+    "description": "浦安市在住の18歳未満の子どもの医療費（保険診療自己負担分）を助成する制度。",
+    "amount": "自己負担分の全額助成（所得制限なし）",
+    "deadline": "随時",
+    "url": "https://www.city.urayasu.lg.jp/kodomo/iryo/index.html",
+    "updatedAt": "2026-06-17"
+  },
+  {
+    "id": "chiba-urayasu-housing-001",
+    "name": "浦安市 住宅リフォーム助成",
+    "source": "municipal",
+    "prefecture": "千葉県",
+    "city": "浦安市",
+    "category": [
+      "住宅"
+    ],
+    "description": "市内業者を利用して住宅のバリアフリー・省エネ改修を行う場合に費用の一部を補助する浦安市の制度。",
+    "amount": "工事費の10%（上限20万円）",
+    "deadline": "年度内（受付は市HPで確認）",
+    "url": "https://www.city.urayasu.lg.jp/machi/jutaku/reform/index.html",
     "updatedAt": "2026-06-17"
   }
 ]
