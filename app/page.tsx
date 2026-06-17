@@ -150,6 +150,7 @@ staticList.filter(s => s.category.some(c => selectedCats.includes(c)) && (s.sour
             <button onClick={() => setStep(0)} className="border border-gray-300 px-6 py-3 rounded-lg text-sm">← 戻る</button>
             <button onClick={() => setStep(2)} disabled={categories.length === 0} className="bg-emerald-600 text-white px-8 py-3 rounded-lg disabled:opacity-40">次へ →</button>
           </div>
+        </div>
       )}
 
       {step === 2 && questions && (
