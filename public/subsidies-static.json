@@ -9,7 +9,7 @@
     "description": "中学校卒業まで（15歳の誕生日後の最初の3月31日まで）の児童を養育している方に支給される手当。",
     "amount": "月額3,000円〜15,000円（所得制限あり）",
     "deadline": "随時",
-    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kodomo/kodomo_kosodate/jidouteate/index.html",
+    "url": "https://www.cfa.go.jp/policies/kokoseido/jidouteate/annai",
     "updatedAt": "2026-06-17"
   },
   {
@@ -139,7 +139,7 @@
     "description": "東京都内に住む18歳までの子どもの医療費（保険診療の自己負担分）を助成する都独自の制度。",
     "amount": "通院・入院の自己負担分を助成（所得制限なし）",
     "deadline": "随時",
-    "url": "https://www.fukushihoken.metro.tokyo.lg.jp/kodomo/kosodate/iryouhi/index.html",
+    "url": "https://www.fukushihoken.metro.tokyo.lg.jp/seikatsu/josei/maruko",
     "updatedAt": "2026-06-17"
   },
   {
@@ -191,7 +191,7 @@
     "description": "渋谷区内の保育所、幼稚園、認定こども園等の利用に関する相談・情報提供、申込み支援を行う。",
     "amount": "相談・情報提供（無料）",
     "deadline": "随時",
-    "url": "https://www.city.shibuya.tokyo.jp/kodomo/hoiku/index.html",
+    "url": "https://www.city.shibuya.tokyo.jp/hoikuen-nyuen",
     "updatedAt": "2026-06-17"
   },
   {
