@@ -57,6 +57,7 @@ export default function Home() {
   const [city, setCity] = useState('');
   const [session, setSession] = useState(null);
   const [sessionLoading, setSessionLoading] = useState(true);
+  const [isPaid, setIsPaid] = useState(false);
 
   useEffect(() => {
     fetch('/api/auth/session')
@@ -64,6 +65,11 @@ export default function Home() {
       .then(data => {
         setSession(data?.user ? data : null);
         setSessionLoading(false);
+        if (data?.user?.email) {
+          fetch(`/api/check-paid?email=${encodeURIComponent(data.user.email)}`)
+            .then(r => r.json())
+            .then(d => setIsPaid(d.isPaid || false));
+        }
       })
       .catch(() => setSessionLoading(false));
   }, []);
@@ -276,7 +282,7 @@ export default function Home() {
           <p className="text-lg font-medium mb-6"><span className="text-emerald-600">{results.length}件</span>の補助金が見つかりました</p>
           {results.map(r => {
             const free = r.type === 'jgrants' || r.source === 'national';
-            const locked = !isLoggedIn && !free;
+            const locked = !isPaid && !free;
             return (
               <div key={r.id} className={`border rounded-xl p-5 mb-3 transition ${locked ? 'border-gray-100 bg-gray-50' : 'border-gray-200 hover:border-gray-300'}`}>
                 {locked ? (
@@ -284,6 +290,10 @@ export default function Home() {
                     <p className="text-sm text-gray-400 mb-2">🔒 この補助金はログイン＆プレミアム登録後にご覧いただけます</p>
                     <a href="/api/auth/signin" className="text-sm text-emerald-600 hover:underline mr-4">Googleでログイン →</a>
                     <button onClick={async () => {
+                      if (!isLoggedIn) {
+                        window.location.href = '/api/auth/signin';
+                        return;
+                      }
                       const res = await fetch('/api/checkout', { method: 'POST' });
                       const data = await res.json();
                       if (data.url) window.location.href = data.url;
