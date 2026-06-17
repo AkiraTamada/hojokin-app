@@ -281,8 +281,13 @@ export default function Home() {
               <div key={r.id} className={`border rounded-xl p-5 mb-3 transition ${locked ? 'border-gray-100 bg-gray-50 opacity-60' : 'border-gray-200 hover:border-gray-300'}`}>
                 {locked ? (
                   <div className="text-center py-2">
-                    <p className="text-sm text-gray-400 mb-2">🔒 この補助金はログイン後にご覧いただけます</p>
-                    <a href="/api/auth/signin" className="text-sm text-emerald-600 hover:underline">Googleでログイン →</a>
+                    <p className="text-sm text-gray-400 mb-2">🔒 この補助金はログイン＆プレミアム登録後にご覧いただけます</p>
+                    <a href="/api/auth/signin" className="text-sm text-emerald-600 hover:underline mr-4">Googleでログイン →</a>
+                    <button onClick={async () => {
+                      const res = await fetch('/api/checkout', { method: 'POST' });
+                      const data = await res.json();
+                      if (data.url) window.location.href = data.url;
+                    }} className="text-sm bg-emerald-600 text-white px-4 py-1 rounded-lg hover:bg-emerald-700">¥980で購入 →</button>
                   </div>
                 ) : (
                   <>
